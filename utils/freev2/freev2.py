@@ -19,6 +19,12 @@ sites=[
         "reg_url": "https://xdmyyds.com/api/v1/passport/auth/register",
         "sub": "https://xdmyyds.com/api/v1/client/subscribe?token={token}",
     },
+    {
+        "name": "kelecloud",
+        "url": "https://sub4.kelecloud.xyz/",
+        "reg_url": "https://sub4.kelecloud.xyz/api/v1/passport/auth/register",
+        "sub": "https://sub4.kelecloud.xyz/api/v1/client/subscribe?token={token}",
+    },
 ]
 
 class tempsite():
