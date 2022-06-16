@@ -1,2 +1,3 @@
 # subconverter的缓存文件
 utils/subconverter/cache/
+*.pyc
