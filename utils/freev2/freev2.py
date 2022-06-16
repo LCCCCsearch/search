@@ -74,5 +74,6 @@ def getconf():
         try:
             obj.saveconf()
         except:
+            print(f"error:{v2site}")
             pass  
     
