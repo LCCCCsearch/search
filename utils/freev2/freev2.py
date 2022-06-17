@@ -1,4 +1,5 @@
 import requests,random,string
+import cloudscraper
 
 sites=[
     {
@@ -27,6 +28,10 @@ sites=[
     },
 ]
 
+scraper = cloudscraper.create_scraper(
+    browser={"browser": "chrome", "platform": "android", "desktop": False}, delay=10,
+)
+
 class tempsite():
     def __init__(self,site):
         self.reg_url=site["reg_url"]
@@ -45,7 +50,7 @@ class tempsite():
             "invite_code":None,
             "email_code":None
         }
-        req=requests.post(self.reg_url,headers=headers,data=data,timeout=5,proxies=proxy)
+        req=scraper.post(self.reg_url,headers=headers,data=data,timeout=5,proxies=proxy)
         return req
         
     def getSubscribe(self):
@@ -60,7 +65,7 @@ class tempsite():
         url=self.getSubscribe()
         for k in range(3):
             try:
-                req=requests.get(url,timeout=5)
+                req=scraper.get(url,timeout=5)
                 v2conf=req.text
                 break
             except:
