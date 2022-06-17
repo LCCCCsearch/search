@@ -1,1 +1,2 @@
 requests==2.26.0
+cloudscraper==1.2.60
