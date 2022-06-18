@@ -22,9 +22,15 @@ sites=[
     },
     {
         "name": "kelecloud",
-        "url": "https://sub4.kelecloud.xyz/",
-        "reg_url": "https://sub4.kelecloud.xyz/api/v1/passport/auth/register",
-        "sub": "https://sub4.kelecloud.xyz/api/v1/client/subscribe?token={token}",
+        "url": "https://sub5.kelecloud.xyz/",
+        "reg_url": "https://sub5.kelecloud.xyz/api/v1/passport/auth/register",
+        "sub": "https://sub5.kelecloud.xyz/api/v1/client/subscribe?token={token}",
+    },
+    {
+        "name": "xn--mes358a2wibu0a.com",
+        "url": "https://xn--mes358a2wibu0a.com/",
+        "reg_url": "https://xn--mes358a2wibu0a.com/api/v1/passport/auth/register",
+        "sub": "https://xn--mes358a2wibu0a.com/api/v1/client/subscribe?token={token}",
     },
 ]
 
