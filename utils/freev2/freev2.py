@@ -8,12 +8,12 @@ sites=[
         "reg_url": "https://feiniaoyun.tk/api/v1/passport/auth/register",
         "sub": "https://feiniaoyun.tk/api/v1/client/subscribe?token={token}",
     },
-    {
-        "name": "ckcloud",
-        "url": "https://nocnet.cloud/",
-        "reg_url": "https://nocnet.cloud/api/v1/passport/auth/register",
-        "sub": "https://nocnet.cloud/api/v1/client/subscribe?token={token}",
-    },
+#     {
+#         "name": "ckcloud",
+#         "url": "https://nocnet.cloud/",
+#         "reg_url": "https://nocnet.cloud/api/v1/passport/auth/register",
+#         "sub": "https://nocnet.cloud/api/v1/client/subscribe?token={token}",
+#     },
     {
         "name": "xdmyyds",
         "url": "https://xdmyyds.com/",
@@ -27,10 +27,10 @@ sites=[
         "sub": "https://sub5.kelecloud.xyz/api/v1/client/subscribe?token={token}",
     },
     {
-        "name": "xn--mes358a2wibu0a.com",
-        "url": "https://xn--mes358a2wibu0a.com/",
-        "reg_url": "https://xn--mes358a2wibu0a.com/api/v1/passport/auth/register",
-        "sub": "https://xn--mes358a2wibu0a.com/api/v1/client/subscribe?token={token}",
+        "name": "misakayun.com",
+        "url": "https://misakayun.com/",
+        "reg_url": "https://misakayun.com/api/v1/passport/auth/register",
+        "sub": "https://misakayun.com/api/v1/client/subscribe?token={token}",
     },
 ]
 
