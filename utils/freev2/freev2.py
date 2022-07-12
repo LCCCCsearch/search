@@ -38,6 +38,12 @@ sites=[
         "reg_url": "https://misakayun.com/api/v1/passport/auth/register",
         "sub": "https://misakayun.com/api/v1/client/subscribe?token={token}",
     },
+    {
+        "name": "konan",
+        "url": "https://konan.ml/",
+        "reg_url": "https://konan.ml/api/v1/passport/auth/register",
+        "sub": "https://konan.ml/api/v1/client/subscribe?token={token}",
+    },
 ]
 
 scraper = cloudscraper.create_scraper(
