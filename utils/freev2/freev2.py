@@ -44,6 +44,12 @@ sites=[
         "reg_url": "https://konan.ml/api/v1/passport/auth/register",
         "sub": "https://konan.ml/api/v1/client/subscribe?token={token}",
     },
+    {
+        "name": "fkfirewall",
+        "url": "https://www.fkfirewall.top/",
+        "reg_url": "https://www.fkfirewall.top/api/v1/passport/auth/register",
+        "sub": "https://www.fkfirewall.top/api/v1/client/subscribe?token={token}",
+    },
 ]
 
 scraper = cloudscraper.create_scraper(
