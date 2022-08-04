@@ -50,6 +50,12 @@ sites=[
         "reg_url": "https://www.fkfirewall.top/api/v1/passport/auth/register",
         "sub": "https://www.fkfirewall.top/api/v1/client/subscribe?token={token}",
     },
+    {
+        "name": "pepsicola",
+        "url": "https://www.pepsicola.me/",
+        "reg_url": "https://www.pepsicola.me/api/v1/passport/auth/register",
+        "sub": "https://www.pepsicola.me/api/v1/client/subscribe?token={token}",
+    },
 ]
 
 scraper = cloudscraper.create_scraper(
