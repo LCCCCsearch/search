@@ -15,47 +15,53 @@ sites=[
         "sub":"https://www.ckcloud.xyz/api/v1/client/subscribe?token={token}"
     },
     {
-        "name":"698436",
-        "url":"https://698436.xyz/",
-        "reg_url":"https://698436.xyz/api/v1/passport/auth/register",
-        "sub":"https://698436.xyz/api/v1/client/subscribe?token={token}"
+        "name":"huanshen",
+        "url":"https://www.zhenyevpn.xyz/",
+        "reg_url":"https://www.zhenyevpn.xyz/api/v1/passport/auth/register",
+        "sub":"https://www.zhenyevpn.xyz/api/v1/client/subscribe?token={token}"
     },
-    {
-        "name": "xdmyyds",
-        "url": "https://xdmyyds.com/",
-        "reg_url": "https://xdmyyds.com/api/v1/passport/auth/register",
-        "sub": "https://xdmyyds.com/api/v1/client/subscribe?token={token}",
-    },
-    {
-        "name": "kelecloud",
-        "url": "https://sub5.kelecloud.xyz/",
-        "reg_url": "https://sub5.kelecloud.xyz/api/v1/passport/auth/register",
-        "sub": "https://sub5.kelecloud.xyz/api/v1/client/subscribe?token={token}",
-    },
-    {
-        "name": "misakayun.com",
-        "url": "https://misakayun.com/",
-        "reg_url": "https://misakayun.com/api/v1/passport/auth/register",
-        "sub": "https://misakayun.com/api/v1/client/subscribe?token={token}",
-    },
-    {
-        "name": "konan",
-        "url": "https://konan.ml/",
-        "reg_url": "https://konan.ml/api/v1/passport/auth/register",
-        "sub": "https://konan.ml/api/v1/client/subscribe?token={token}",
-    },
-    {
-        "name": "fkfirewall",
-        "url": "https://www.fkfirewall.top/",
-        "reg_url": "https://www.fkfirewall.top/api/v1/passport/auth/register",
-        "sub": "https://www.fkfirewall.top/api/v1/client/subscribe?token={token}",
-    },
-    {
-        "name": "pepsicola",
-        "url": "https://www.pepsicola.me/",
-        "reg_url": "https://www.pepsicola.me/api/v1/passport/auth/register",
-        "sub": "https://www.pepsicola.me/api/v1/client/subscribe?token={token}",
-    },
+#     {
+#         "name":"698436",
+#         "url":"https://698436.xyz/",
+#         "reg_url":"https://698436.xyz/api/v1/passport/auth/register",
+#         "sub":"https://698436.xyz/api/v1/client/subscribe?token={token}"
+#     },
+#     {
+#         "name": "xdmyyds",
+#         "url": "https://xdmyyds.com/",
+#         "reg_url": "https://xdmyyds.com/api/v1/passport/auth/register",
+#         "sub": "https://xdmyyds.com/api/v1/client/subscribe?token={token}",
+#     },
+#     {
+#         "name": "kelecloud",
+#         "url": "https://sub5.kelecloud.xyz/",
+#         "reg_url": "https://sub5.kelecloud.xyz/api/v1/passport/auth/register",
+#         "sub": "https://sub5.kelecloud.xyz/api/v1/client/subscribe?token={token}",
+#     },
+#     {
+#         "name": "misakayun.com",
+#         "url": "https://misakayun.com/",
+#         "reg_url": "https://misakayun.com/api/v1/passport/auth/register",
+#         "sub": "https://misakayun.com/api/v1/client/subscribe?token={token}",
+#     },
+#     {
+#         "name": "konan",
+#         "url": "https://konan.ml/",
+#         "reg_url": "https://konan.ml/api/v1/passport/auth/register",
+#         "sub": "https://konan.ml/api/v1/client/subscribe?token={token}",
+#     },
+#     {
+#         "name": "fkfirewall",
+#         "url": "https://www.fkfirewall.top/",
+#         "reg_url": "https://www.fkfirewall.top/api/v1/passport/auth/register",
+#         "sub": "https://www.fkfirewall.top/api/v1/client/subscribe?token={token}",
+#     },
+#     {
+#         "name": "pepsicola",
+#         "url": "https://www.pepsicola.me/",
+#         "reg_url": "https://www.pepsicola.me/api/v1/passport/auth/register",
+#         "sub": "https://www.pepsicola.me/api/v1/client/subscribe?token={token}",
+#     },
 ]
 
 scraper = cloudscraper.create_scraper(
