@@ -91,7 +91,7 @@ class tempsite():
         
     def getSubscribe(self):
         password=''.join(random.sample(string.ascii_letters + string.digits + string.ascii_lowercase, 10))
-        email=password+"@gmail.com"
+        email=password+"@qq.com"
         req=self.register(email,password)
         token=req.json()["data"]["token"]
         subscribe=self.sub.format(token=token)
